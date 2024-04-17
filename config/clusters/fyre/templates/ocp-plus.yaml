@@ -15,17 +15,17 @@ spec:
   platform: "x"
   {{- if eq .Values.provider.fyre.workerFlavor "extra-large" }}
   worker:
-    count: "6"
+    count: "3"
     cpu: "16"
-    memory: "32"
+    memory: "48"
     additionalDisk:
-    - "100"
+    - "250"
   {{- else }}
   worker:
     count: "3"
     cpu: "16"
-    memory: "32"
+    memory: "48"
     additionalDisk:
-    - "100"
+    - "250"
   {{- end }}
 {{- end }}

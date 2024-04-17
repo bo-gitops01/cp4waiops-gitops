@@ -3,7 +3,7 @@ provider:
   fyre:
     quotaType: quick-burn
     site: "svl"
-    ocpVersion: "4.8.27"
+    ocpVersion: "4.15.3"
     workerFlavor: extra-large
     credentials:
       user: REPLACE_IT
